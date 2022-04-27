@@ -1,3 +1,6 @@
-CS445-labs
+#CS445-labs
 
-1. Lab 1
+##Lab 1
+
+1. Git 
+   a. git fetch
