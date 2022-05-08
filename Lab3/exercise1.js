@@ -12,7 +12,7 @@ const shoppingCart = (function(){
     let basket = [];  
     return {
         upsertItem: function(item){
-            for(let i=0; i < basket.length; i++){
+            for(let i=0; i < basket.length; i++){ //it will loop through the array
                 let index = basket[i];
                 if(index.id ===item.id){
                    basket[i]= item;
