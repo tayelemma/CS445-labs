@@ -9,8 +9,7 @@
      Item = {id: 0, product: {id: 1, name: 'Coffee', description: 'Coffee Grounds from Ethiopia', price: 9.5}, count: 1}
  */
 const shoppingCart = (function(){
-    let basket = [];
-    
+    let basket = [];  
     return {
         upsertItem: function(item){
             for(let i=0; i < basket.length; i++){
@@ -21,7 +20,6 @@ const shoppingCart = (function(){
                 }
             }
             basket.push(item);
-
         },
         getItemsCount: function(){
             return basket.length;

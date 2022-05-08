@@ -1,6 +1,5 @@
 /**
  * Implement Decorator pattern to add a logger to any object (additional class is needed). A logger method will log a message to the console.
-
     When you finish, you can use the code below to test:
  */
 
@@ -22,10 +21,6 @@ class DecoratedUser {
     }
 
 }
-
-
-
 const user = new User("Kelly");
-
 const decorated = new DecoratedUser(user, "Broadway", "New York");
 decorated.logger();
