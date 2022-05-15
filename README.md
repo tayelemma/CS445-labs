@@ -22,4 +22,7 @@
 8. Lab 8 Async & await
     1. [Exercise 1](./Lab8/exercise1.js)
     2. [Exercise 2](./Lab8/exercise2.js)
-
+9. Lab 9 Fetch
+    1. [Exercise 1](./Lab9/exercise1.html)[Exercise 1-JS](./Lab9/exercise1.js)
+10. Lab 10 RXJS
+    1. [Exercise 1](./Lab10/index.html)[Exercise 1-JS](./Lab10/main.js)
